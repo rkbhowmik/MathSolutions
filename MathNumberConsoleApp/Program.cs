@@ -12,7 +12,7 @@ namespace MathNumberConsoleApp
 		{
 			int sum = 0;
 			Console.WriteLine("***** This program will take an input to set a range.\nThen it will display all the numbers which are divisible by 3 and their summation ******");
-			Console.Write("\n\nInput a numbers to set the range: ");
+			Console.Write("\n\nInput a number to set the range (ex. 100): ");
 			var input = int.Parse(Console.ReadLine());
 			for (int i = 1; i <= input; i++)
 			{
