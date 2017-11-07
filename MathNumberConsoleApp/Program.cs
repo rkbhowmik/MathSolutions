@@ -11,8 +11,10 @@ namespace MathNumberConsoleApp
 		static void Main(string[] args)
 		{
 			int sum = 0;
-			Console.Write("Numbers between 1 and 50, divisible by 3 : \n");
-			for (int i = 1; i <= 50; i++)
+			Console.WriteLine("***** This program will take an input to set a range.\nThen it will display all the numbers which are divisible by 3 and their summation ******");
+			Console.Write("\n\nInput a numbers to set the range: ");
+			var input = int.Parse(Console.ReadLine());
+			for (int i = 1; i <= input; i++)
 			{
 				if (i % 3 == 0)
 				{
